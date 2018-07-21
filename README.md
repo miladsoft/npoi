@@ -21,10 +21,10 @@ To show,
 - Export: We’ll create an excel file with some dummy data using NPOI and download the same in the browser.
 
 
-# Export xlsx/xls in ASP.NET Core
+## Export xlsx/xls in ASP.NET Core
 ![Export xlsx/xls in ASP.NET Core](/pic/Export-excel-in-ASP.NET-Core-2.0-Razor-Pages.gif)
 
 -------------
 
-# Import xlsx/xls in ASP.NET Core
+## Import xlsx/xls in ASP.NET Core
 ![Import xlsx/xls in ASP.NET Core](/pic/Import-and-Export-excel-in-ASP.NET-Core-2.0-Razor-Pages.gif)
