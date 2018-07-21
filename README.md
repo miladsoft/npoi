@@ -17,8 +17,8 @@ PM> Install-Package DotNetCore.NPOI
 
 To show,
 
-    Import: We’ll upload an excel file on the server and then process it using NPOI.
-    Export: We’ll create an excel file with some dummy data using NPOI and download the same in the browser.
+- Import: We’ll upload an excel file on the server and then process it using NPOI.
+- Export: We’ll create an excel file with some dummy data using NPOI and download the same in the browser.
 
 
 # Export xlsx/xls in ASP.NET Core
