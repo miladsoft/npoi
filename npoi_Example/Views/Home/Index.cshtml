@@ -1,20 +1,21 @@
 ﻿
 @{
     ViewData["Title"] = "Index";
+    Layout = "_Layout";
 }
 
-<form method="post" action="/Home/OnPostExport" enctype="multipart/form-data">
+<form method="post" action="/Home/OnPostExport" enctype="multipart/form-data"style="padding-top:30px;">
     <div class="row">
         <div class="col-md-4">
             <input type="file" id="fUpload" name="files" class="form-control" />
         </div>
         <div class="col-md-8">
-            <input type="button" id="btnUpload" value="Upload" />
+            <input type="button" id="btnUpload" value="Upload" class="btn btn-primary" />
         </div>
     </div>
     <div class="row">
         <div class="col-md-8" style="padding-top:10px;">
-            <button asp-page-handler="Export">Export</button>
+            <button asp-page-handler="Export" class="btn btn-info">Export</button>
         </div>
     </div>
     <br />

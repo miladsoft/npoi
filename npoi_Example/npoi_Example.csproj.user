@@ -10,5 +10,8 @@
     <WebStackScaffolding_LayoutPageFile />
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
     <WebStackScaffolding_ViewDialogWidth>600</WebStackScaffolding_ViewDialogWidth>
+    <View_SelectedScaffolderID>RazorPagesLayoutScaffolder</View_SelectedScaffolderID>
+    <View_SelectedScaffolderCategoryPath>root/Layouts</View_SelectedScaffolderCategoryPath>
+    <WebStackScaffolding_EnablerDialogWidth>650</WebStackScaffolding_EnablerDialogWidth>
   </PropertyGroup>
 </Project>

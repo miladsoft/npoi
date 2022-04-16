@@ -51,16 +51,22 @@ namespace npoi_Example
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
-
-            app.UseMvc(routes =>
+            app.UseRouting();
+            app.UseEndpoints(endpoints =>
             {
-                routes.MapRoute(
-                    name: "areas",
-                    template: "{area:exists}/{controller=Account}/{action=Index}/{id?}");
-                routes.MapRoute(
-                    name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapControllers();
+
+                endpoints.MapControllerRoute(
+                    "areaRoute",
+                    "{area:exists}/{controller=Account}/{action=Index}/{id?}");
+
+                endpoints.MapControllerRoute(
+                    "default",
+                    "{controller=Home}/{action=Index}/{id?}");
+
+                endpoints.MapRazorPages();
             });
+
         }
     }
 }
