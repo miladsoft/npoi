@@ -1,4 +1,4 @@
-Import and Export excel in ASP.NET Core 2.0 Razor Pages
+Import and Export excel in ASP.NET Core 6.0 Razor Pages
 ===========
 NPOI is a free tool which supports xls, xlsx and docx extensions. This project is the .NET version of POI Java project at http://poi.apache.org/. POI is an open source project, which can help you read/write XLS, DOC, PPT files. It covers most features of Excel like styling, formatting, data formulas, extract images, etc.. The good thing is, it doesn’t require Microsoft Office to be installed on the server.
 
